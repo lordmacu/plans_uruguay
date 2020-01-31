@@ -838,6 +838,10 @@
 
     @media (min-width: 320px) and (max-width: 480px) {
         
+        .font-size-price-main{
+                    font-size: 35px;
+        }
+        
         .month-font{
                 width: 100%;
                 display: table;
