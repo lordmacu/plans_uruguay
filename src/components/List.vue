@@ -195,7 +195,7 @@
                                     <div class="col-8">
                                         <div class="row">
                                             <div class="col-5 container-brand-mobile">
-                                                <img width="100%" src="../assets/logo-result.png"/>
+                                                <img width="100%"  :src="'http://comparador.comparaplanes.com/storage/'+item.carrier.image"/>
                                             </div>
                                             <div class="col-7">
                                                 <span class="title-plan ">{{item.name}}</span>   <span v-html="calculateOff(item)" /> 
@@ -850,6 +850,8 @@
         
         .title-plan{
                 padding-left: 10px;
+                    text-align: left;
+    display: inline-block;
         }
         .shadow-result{
 
@@ -1055,6 +1057,15 @@
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 10px;
-        font-weight: 800
+        font-weight: 800;
+     
     }
+    
+        @media (min-width: 320px) and (max-width: 480px) {
+.off-number{
+       
+        width: 100%;
+    display: table;
+    }
+        }
 </style>
