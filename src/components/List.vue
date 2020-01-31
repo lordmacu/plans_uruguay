@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                             <div class="form-group no-margin search-container-button">
-                                <button class="btn button-red " v-on:click="getPlans()">Búscar</button>
+                                <button class="btn button-red " v-on:click="getPlans()">Buscar</button>
                             </div>
                         </div>
                     </div>
